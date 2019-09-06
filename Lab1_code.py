@@ -6,14 +6,14 @@
 lengthin = 50 * 12
 widthin = 20 * 12
 areain = (lengthin * widthin)
-print (areain)
+#print (areain)
 #Calculating square inches of rainfall
 rainfallin = 1
 waterin = rainfallin * areain
-print (waterin)
+#print (waterin)
 #Converting square inches to gallons
 watergal = (waterin * 0.004329)
-print (watergal)
+#print (watergal)
 #Printing the final results
 print "lengthin is:", lengthin, "inches"
 print "widthin is:", widthin, "inches"
