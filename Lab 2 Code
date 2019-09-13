@@ -1,0 +1,19 @@
+#Name: Ariana Nicholson
+#Date: September 13, 2019
+#Time: 35 Mins
+#Lab 3
+
+#This is the input question
+input_temp = input ("What's the temperature?")
+#This if/elif/else funcition returns the apropriate response based on input temperature. 
+def feelTemp (input_temp):
+  if input_temp < 32:
+    return 'It is cold.'
+  elif 32 <= input_temp and input_temp < 70:
+    return 'It is cool.'
+  elif 70 <= input_temp and input_temp < 100:
+    return 'It is warm.'
+  else:
+    return 'It is hot.'
+#printing the response
+print feelTemp (input_temp)
